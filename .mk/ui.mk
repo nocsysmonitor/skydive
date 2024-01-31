@@ -8,7 +8,7 @@ UI_DIRS := \
 
 UI_V2_DIRS := \
 	statics/ui_v2/index.html \
-	statics/ui_v2/assets \
+	statics/ui_v2/assets/... \
 	statics/ui_v2/dist \
 	statics/ui_v2/fonts
 
@@ -17,4 +17,4 @@ UI_V2_DIRS := \
 
 .PHONY: .ui_v2
 .ui_v2:
-	cd statics/ui_v2 && npm install && npm run prepare && cd -
+#	cd statics/ui_v2 && npm install && npm run prepare && cd -
